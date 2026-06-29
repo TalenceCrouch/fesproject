@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Big Website Co</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #fff7d6;
+      color: #222;
+      line-height: 1.5;
+    }
+
+    .wrap {
+      max-width: 920px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #ffd54f;
+      padding: 14px 16px;
+      border: 3px solid #111;
+    }
+
+    .top a {
+      margin-left: 10px;
+      text-decoration: none;
+      color: #111;
+      font-weight: bold;
+    }
+
+    .hero {
+      margin-top: 20px;
+      padding: 24px;
+      background: #fef6e4;
+      border: 3px solid #111;
+    }
+
+    .hero h1 {
+      font-size: 34px;
+      margin: 0 0 10px;
+    }
+
+    .hero p {
+      margin: 0 0 12px;
+      font-size: 16px;
+    }
+
+    .btn {
+      display: inline-block;
+      background: #111;
+      color: #fff;
+      padding: 8px 12px;
+      text-decoration: none;
+      border: 2px solid #111;
+    }
+
+    .box {
+      margin-top: 20px;
+      padding: 16px;
+      background: #fff;
+      border: 2px solid #111;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 12px;
+      margin-top: 10px;
+    }
+
+    .card {
+      padding: 12px;
+      border: 2px solid #111;
+      background: #fffdf8;
+    }
+
+    ol {
+      padding-left: 20px;
+    }
+
+    footer {
+      margin-top: 24px;
+      text-align: center;
+      font-size: 13px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="top">
+      <strong>Big Website Co</strong>
+      <div>
+        <a href="#about">About</a>
+        <a href="#stuff">Stuff</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+
+    <div class="hero">
+      <h1>We make websites that kinda work.</h1>
+      <p>This is a website for a small business that sells stuff and also has a lot of feelings.</p>
+      <a class="btn" href="#contact">Click here maybe</a>
+    </div>
+
+    <div class="box" id="about">
+      <h2>About us</h2>
+      <p>We started this thing in a bedroom with one laptop and a lot of coffee. We still use the same laptop.</p>
+    </div>
+
+    <div class="box" id="stuff">
+      <h2>Things we offer</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Fast-ish</h3>
+          <p>We can make it quick, or at least not too slow.</p>
+        </div>
+        <div class="card">
+          <h3>Cheap enough</h3>
+          <p>Our prices are not great, but they are okay.</p>
+        </div>
+        <div class="card">
+          <h3>Simple pages</h3>
+          <p>We do basic websites with text, buttons, and maybe a photo.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="box">
+      <h2>How it goes</h2>
+      <ol>
+        <li>We talk for a bit.</li>
+        <li>We make a rough draft.</li>
+        <li>We hope it is okay.</li>
+      </ol>
+    </div>
+
+    <div class="box" id="contact">
+      <h2>Contact</h2>
+      <p>Email: hello@bigwebsiteco.com</p>
+      <p>Phone: 555-1234</p>
+    </div>
+
+    <footer>
+      This site was made by a person who is learning and trying their best.
+    </footer>
+  </div>
+</body>
+</html>
